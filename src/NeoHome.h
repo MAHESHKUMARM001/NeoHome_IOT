@@ -16,7 +16,7 @@ public:
 private:
     WiFiClient espClient;
     PubSubClient mqttClient;
-    const char* mqttServer = "13.42.32.58";
+    const char* mqttServer = "18.175.142.227";
     const int mqttPort = 1883;
     String clientId;
     std::map<String, String> pinValues; // Store values per topic
